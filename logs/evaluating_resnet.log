@@ -1,0 +1,87 @@
+root - INFO - **********
+root - INFO - Loading model files from folder: D:\Projets\marine-debris.github.io\multi-label\resnet\trained_models\18\model.pth
+root - INFO - **********
+root - INFO - Loading model files from folder: D:\Projets\marine-debris.github.io\multi-label\resnet\trained_models\18\model.pth
+root - INFO - 
+
+root - INFO - STATISTICS : 
+
+root - INFO - Evaluation: {'macroPrec': 0.44659523533099055, 'microPrec': 0.6848249027237354, 'samplePrec': 0.6961467038068709, 'macroRec': 0.30613683311656187, 'microRec': 0.5876460767946577, 'sampleRec': 0.6211699164345403, 'macroF1': 0.31787084198392984, 'microF1': 0.632524707996406, 'sampleF1': 0.6172171375513994, 'HammingLoss': 0.10357052418333755, 'subsetAcc': 0.2757660167130919, 'coverageError': 6.927576601671309, 'rankLoss': 0.39944179157271076}
+root - INFO -                           precision    recall  f1-score   support
+
+           Marine Debris     0.4237    0.4950    0.4566       101
+         Dense Sargassum     0.0000    0.0000    0.0000        13
+        Sparse Sargassum     0.0000    0.0000    0.0000        24
+Natural Organic Material     0.0000    0.0000    0.0000        16
+                    Ship     0.1667    0.0196    0.0351        51
+                  Clouds     0.7500    0.3333    0.4615        45
+            Marine Water     0.8089    0.9442    0.8713       251
+    Sediment-Laden Water     0.7692    0.7692    0.7692        13
+                    Foam     0.3333    0.0667    0.1111        15
+            Turbid Water     0.6607    0.6727    0.6667        55
+           Shallow Water     1.0000    0.0667    0.1250        15
+
+               micro avg     0.6848    0.5876    0.6325       599
+               macro avg     0.4466    0.3061    0.3179       599
+            weighted avg     0.5917    0.5876    0.5636       599
+             samples avg     0.6961    0.6212    0.6172       599
+
+root - INFO - Per Label Confusion Matrix: 
+
+root - INFO - Assigned or Not during annotation ("Ground-Truth") and Predicted or Not by the model. 
+
+root - INFO -                 No  Yes
+Marine Debris          
+Not Assigned   190   68
+Assigned        51   50 
+
+root - INFO -                   No  Yes
+Dense Sargassum          
+Not Assigned     346    0
+Assigned          13    0 
+
+root - INFO -                    No  Yes
+Sparse Sargassum          
+Not Assigned      335    0
+Assigned           24    0 
+
+root - INFO -                            No  Yes
+Natural Organic Material          
+Not Assigned              339    4
+Assigned                   16    0 
+
+root - INFO -                No  Yes
+Ship                  
+Not Assigned  303    5
+Assigned       50    1 
+
+root - INFO -                No  Yes
+Clouds                
+Not Assigned  309    5
+Assigned       30   15 
+
+root - INFO -               No  Yes
+Marine Water         
+Not Assigned  52   56
+Assigned      14  237 
+
+root - INFO -                        No  Yes
+Sediment-Laden Water          
+Not Assigned          343    3
+Assigned                3   10 
+
+root - INFO -                No  Yes
+Foam                  
+Not Assigned  342    2
+Assigned       14    1 
+
+root - INFO -                No  Yes
+Turbid Water          
+Not Assigned  285   19
+Assigned       18   37 
+
+root - INFO -                 No  Yes
+Shallow Water          
+Not Assigned   344    0
+Assigned        14    1 
+
